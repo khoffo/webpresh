@@ -1,0 +1,155 @@
+
+body{
+    background-color: black;
+    color: #fff;
+}
+.active {
+    background-color: #3d535f;
+    color:#000;
+    
+    }
+.container{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 10rem;
+    margin-left: 5rem;
+    
+}
+.container img{
+    width: 25rem;
+    height: 25rem;
+}
+.port{
+    display: flex;
+    justify-content: space-evenly;
+}
+.port a{
+    color: white;
+    text-decoration: none;
+    margin: auto 30px;
+}
+.port h2{
+    color: white;
+    /* outline: 1px solid red; */
+    padding: 0%;
+    margin: 0%;
+    margin-left: 2rem;
+}
+.text{
+    margin-left:5rem;
+    color: white;
+    /* outline: 1px solid red; */
+    width: 35rem;
+}
+.text h1{
+    font-size: 3rem;
+    /* border: 1px solid red; */
+    width: 40rem;
+}
+.image{
+    /* outline: 1px solid green; */
+    margin-left: 2rem;
+}
+.based{
+    color: gray;
+}
+#about{
+    background-color: rgb(196, 196, 233);
+    height:50rem;
+}
+.me{
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 10rem;
+    /* outline: 1px solid red; */
+}
+.me h1{
+    margin-top: 10rem;
+    font-style: italic;
+}
+.picture{
+    margin-left: 15rem;
+    height:20rem ;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+#you{
+    /* border: 5px solid rgb(255, 255, 255); */
+}
+.yty{
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 100rem;  */
+}
+.song img{
+    border-radius: 80%;
+    height: 50%;
+    border: 2px solid black;
+    margin-right: 13rem;
+}
+#Contact{
+    background-color: white;
+    height: 50%;
+}
+.portfolio{
+    /* border: 1px solid red; */
+    display: flex ;
+    gap: 200px;
+}
+.phone{
+    margin-left: 25rem;
+    width: 25rem;
+    height: 25rem;
+}
+.chat{
+    margin-left:5rem;
+    /* color: white; */
+    /* outline: 1px solid red; */
+    width: 35rem;
+    margin-top: 5rem;
+}
+.form{
+    /* outline: 1px solid red; */
+    margin-left: 5rem;
+    margin-top: 20rem;
+    margin-right: 5rem;
+    background-color: gray;
+    padding: 2rem;
+    width: 20%;
+    border-radius: 3rem;
+}
+.chat h1{
+    align-items: center 2rem;
+    font-size: 5rem;
+    margin-top: 5rem;
+    /* color: rgb(58, 58, 241); */
+}
+.chat h3{
+    font-size: 4rem;
+}
+.chat p{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.form.holder{
+    margin-bottom: 2rem;
+    border-radius: 10rem;
+    
+
+}
+#holder{
+width: 15rem;
+height: 6rem;
+}
+.message{
+    width: 5rem;
+    height: 3rem;
+    margin-left: 3rem;
+    border-radius: 1rem;
+}
